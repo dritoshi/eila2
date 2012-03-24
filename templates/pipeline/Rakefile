@@ -1,0 +1,7 @@
+require "pp"
+
+base_dir = Dir.pwd
+
+desc "Your task"
+task :task_name do
+end    

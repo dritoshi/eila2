@@ -1,0 +1,13 @@
+Package: PROJECT_NAME
+Type: Package
+Title: 
+Version: 0.99.1
+Date: 
+Author: YOUR_NAME <YOUR_EMAIL>
+Maintainer: YOUR_NAME <YOUR_EMAIL>
+Description: 
+Depends:
+License: Artistic-2.0
+LazyLoad: yes
+Collate:
+biocViews:

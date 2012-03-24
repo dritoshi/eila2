@@ -1,0 +1,36 @@
+%\VignetteIndexEntry{PROJECT_NAME}
+%\VignetteDepends{}
+%\VignetteKeywords{PROJECT_NAME}
+%\VignettePackage{PROJECT_NAME}
+\documentclass[12pt,fullpage]{article}
+
+\usepackage{amsmath,epsfig,pstricks,fullpage}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage[authoryear,round]{natbib}
+
+\newcommand{\Rfunction}[1]{{\texttt{#1}}}
+\newcommand{\Robject}[1]{{\texttt{#1}}}
+\newcommand{\Rpackage}[1]{{\textit{#1}}}
+\newcommand{\Rclass}[1]{{\textit{#1}}}
+\newcommand{\Rmethod}[1]{{\textit{#1}}}
+
+\author{YOUR_NAME$^\ddagger$\footnote{YOUR_EMAIL}}
+\begin{document}
+\title{Using the PROJECT_NAME package}
+\maketitle
+\begin{center}$^\ddagger$The RIKEN Center for Developmental Biology
+\end{center}
+
+\tableofcontents
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Overview of PROJECT_NAME}
+
+\section{Getting Started using PROJECT_NAME package}
+
+<<>>=
+library(PROJECT_NAME)
+@ 
+
+\end{document}
